@@ -70,13 +70,35 @@ source_lists=(
     "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" # StevenBlack - Hosts
 )
 
-# Clear temporary blocklist file
-echo '' > ${temp_blocklist_name}
+date_now=`date +"%Y-%m-%d"`
+
+# File header
+cat > ${temp_blocklist_name} <<- EOM
+######################################################################################
+##                                                                                  ##
+## This list is cumulated form more than 60 other DNS block lists                   ##
+## used by AdGuardHome and Pi-Hole                                                  ##
+##                                                                                  ##
+## Last Update: ${date_now}                                                          ##
+##                                                                                  ##
+######################################################################################
+
+
+EOM
 
 # Add blocklists to temporary blocklist file
 for blocklist_url in ${source_lists[@]}; do
     echo -e "## ${blocklist_url} ##\n"  >> ${temp_blocklist_name}
+
     wget --timeout=20 -O - ${blocklist_url} >> ${temp_blocklist_name}
+
     echo -e "\n\n\n" >> ${temp_blocklist_name}
     echo ${blocklist_url}
 done
+
+# Move the content into a file that's not ignored by git
+cat ${temp_blocklist_name} > blocklist
+
+git add blocklist
+git commit -m 'Blocklist updated'
+git push
