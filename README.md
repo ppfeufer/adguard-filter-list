@@ -21,7 +21,7 @@ Which lists I'm using here, you can see in the shell script that puts this list 
 
 Absolutely not.
 
-All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of block lists isn't massive. (That was a lot of lists in onje sentence ...)
+All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of block lists isn't massive. (That was a lot of lists in one sentence ...)
 
 
 ## How often is this list updated?
