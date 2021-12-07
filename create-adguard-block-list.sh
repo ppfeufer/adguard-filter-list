@@ -3,7 +3,15 @@
 # Creates a combined DNS blocklist from multiple sources, so you don't have to add them all one after another.
 # Including the defined default lists that AdGuard comes with
 
+# Stop the script at any given error
+set -e
+
+# set our variables
+blocklist_name="blocklist"
 temp_blocklist_name="blocklist.tmp"
+curl_log="curl-log-file"
+
+# The blocklists we are going to combine into one
 source_lists=(
     "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" # AdGuard DNS filter
     "https://adaway.org/hosts.txt" # AdAway Default Blocklist
@@ -70,6 +78,7 @@ source_lists=(
     "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" # StevenBlack - Hosts
 )
 
+# current date
 date_now=`date +"%Y-%m-%d"`
 
 # File header
@@ -89,17 +98,37 @@ EOM
 
 # Add blocklists to temporary blocklist file
 for blocklist_url in ${source_lists[@]}; do
+    (
+        # Run curl, and stick all output in the curl_log file
+        curl --fail --silent --show-error ${blocklist_url} > ${curl_log} 2>&1
+    ) || (
+        # Something went south and cURL is throwing a hissy fit.
+        # Let's stop the script at this point to ensure we have at least
+        # yesterdays blocklist preserved.
+        #
+        # This happens when cURL can't connect to one of the URLs provided in the
+        # source_lists array.
+
+        cat "${curl_log}" > /dev/stderr
+        rm ${curl_log}
+
+        echo "Failed to fetch list from ${blocklist_url}. Blocklist file would not be complete. Exiting!"
+    )
+
     echo -e "## ${blocklist_url} ##\n"  >> ${temp_blocklist_name}
 
-    wget --timeout=20 -O - ${blocklist_url} >> ${temp_blocklist_name}
+    cat ${curl_log} >> ${temp_blocklist_name}
 
     echo -e "\n\n\n" >> ${temp_blocklist_name}
-    echo ${blocklist_url}
 done
 
-# Move the content into a file that's not ignored by git
-cat ${temp_blocklist_name} > blocklist
+# Remove cURL log
+rm ${curl_log}
 
+# Now that all is collected, move the content into a file that's not ignored by git
+cat ${temp_blocklist_name} > ${blocklist_name}
+
+# Push it to GitHub
 git add blocklist
 git commit -m 'Blocklist updated'
 git push
