@@ -79,6 +79,7 @@ cat > ${temp_blocklist_name} <<- EOM
 ## This list is cumulated form more than 60 other DNS block lists                   ##
 ## used by AdGuardHome and Pi-Hole                                                  ##
 ##                                                                                  ##
+## Updated: Daily                                                                   ##
 ## Last Update: ${date_now}                                                          ##
 ##                                                                                  ##
 ######################################################################################
