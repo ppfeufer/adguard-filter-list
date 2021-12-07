@@ -39,13 +39,6 @@ As stated [here](https://github.com/lightswitch05/hosts#google-fonts) from one o
 @@||fonts.gstatic.com^$important
 ```
 
-### Eve Online Launcher
-
-The Eve Online Launcher generally works just fine without having to whitelist anything. But it will throw a certificate error at you every time you start it. You can just click "Ignore", it'll work just fine, but it gets annoying after some time. So I suggest to whitelist the developers CDN.
-
-```plaintext
-@@||extccp.com^$important
-```
 
 ## Last words
 
