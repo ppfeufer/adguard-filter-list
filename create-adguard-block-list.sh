@@ -113,6 +113,8 @@ for blocklist_url in ${source_lists[@]}; do
         rm ${curl_log}
 
         echo "Failed to fetch list from ${blocklist_url}. Blocklist file would not be complete. Exiting!"
+
+        exit 111
     )
 
     echo -e "## ${blocklist_url} ##\n"  >> ${temp_blocklist_name}
