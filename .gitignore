@@ -1,1 +1,2 @@
-blocklist.tmp
+/blocklist.tmp
+/curl-log-file
