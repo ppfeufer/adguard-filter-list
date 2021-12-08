@@ -14,7 +14,7 @@ Pretty simple, copy this link (https://raw.githubusercontent.com/ppfeufer/adguar
 
 ## Which lists are combined here?
 
-Which lists I'm using here, you can see in the shell script that puts this list together » [click here](create-adguard-block-list.sh)
+Which lists I'm using here, you can see in the shell script that puts this list together » [click here](create-adguard-blocklist.sh)
 
 
 ## Do you curate the lists?
