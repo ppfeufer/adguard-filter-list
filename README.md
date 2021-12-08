@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a DNS block list that can be used for AdGuardHome and Pi-Hole. (AdGuardHome is tested but should also work in Pi-Hole without problems)
+This is a DNS blocklist that can be used for AdGuardHome and Pi-Hole. (AdGuardHome is tested but should also work in Pi-Hole without problems)
 
 This list combines more than 60 other lists, including the default lists from AdGuardHome, into one single list, so you don't have to add countless lists to your AdGuardHome or Pi-Hole, but just this one.
 
@@ -21,7 +21,7 @@ Which lists I'm using here, you can see in the shell script that puts this list 
 
 Absolutely not.
 
-All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of block lists isn't massive. (That was a lot of lists in one sentence ...)
+All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of blocklists isn't massive. (That was a lot of lists in one sentence ...)
 
 
 ## How often is this list updated?
@@ -29,7 +29,7 @@ All these lists are considered 3rd party from my point of view. I have no influe
 Daily
 
 
-## Whitelist exceptions you mighht want to make
+## Whitelist exceptions you might want to make
 
 ### Google Fonts
 
@@ -42,6 +42,6 @@ As stated [here](https://github.com/lightswitch05/hosts#google-fonts) from one o
 
 ## Last words
 
-You are free to use this list, but I can give you no guarantee for it, since none of the lists combined here is managed by me.
+You are free to use this list, but I can give you no guarantee for it since none of the lists combined here is managed by me.
 
 If you want to create your own combined list, feel free to fork this repository and change the shell script I included to start your own voyage.
