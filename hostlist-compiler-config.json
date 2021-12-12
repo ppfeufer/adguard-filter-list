@@ -322,8 +322,8 @@
   ],
   "transformations": [
     "RemoveComments",
-    "Validate",
+#    "Validate",
     "Deduplicate",
-    "Compress"
+#    "Compress"
   ]
 }
