@@ -323,7 +323,7 @@
   "transformations": [
     "RemoveComments",
 #    "Validate",
-    "Deduplicate",
+    "Deduplicate"
 #    "Compress"
   ]
 }
