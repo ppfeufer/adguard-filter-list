@@ -7,7 +7,7 @@
 set -e
 
 # set our variables
-blocklist_name="blocklist"
+blocklist_name="blocklist-raw"
 temp_blocklist_name="blocklist.tmp"
 curl_log="curl-log-file"
 
@@ -129,8 +129,3 @@ rm ${curl_log}
 
 # Now that all is collected, move the content into a file that's not ignored by git
 cat ${temp_blocklist_name} > ${blocklist_name}
-
-# Push it to GitHub
-git add blocklist
-git commit -m 'Blocklist updated'
-git push
