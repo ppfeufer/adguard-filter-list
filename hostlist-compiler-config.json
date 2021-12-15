@@ -1,0 +1,326 @@
+{
+  "name": "ppfeufer/adguard-filter-list",
+  "description": "DNS block list that can be used for AdGuardHome and Pi-Hole. (AdGuardHome is tested but should also work in Pi-Hole without problems)",
+  "homepage": "https://github.com/ppfeufer/adguard-filter-list",
+  "license": "GPLv3",
+  "sources": [
+    {
+      "name": "AdGuard DNS filter",
+      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "AdAway Default Blocklist",
+      "source": "https://adaway.org/hosts.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Dan Pollock's List",
+      "source": "https://someonewhocares.org/hosts/zero/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "WindowsSpyBlocker - Hosts spy rules",
+      "source": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Scam Blocklist by DurableNapkin",
+      "source": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "The Big List of Hacked Malware Web Sites",
+      "source": "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "Online Malicious URL Blocklist (AdGuard Home)",
+      "source": "https://curben.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "ABPindo",
+      "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "ITA: Filtri-DNS",
+      "source": "https://filtri-dns.ga/filtri.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "KOR: YousList",
+      "source": "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "NOR: Dandelion Sprouts nordiske filtre",
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Dandelion Sprout's Anti-Malware List («hosts» file version)",
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "POL: Polish filters for Pi hole",
+      "source": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "SWE: Frellwit's Swedish Hosts File",
+      "source": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "CHN: anti-AD",
+      "source": "https://anti-ad.net/easylist.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "IRN: Unwanted Iranian domains",
+      "source": "https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "MKD: Macedonian Pi-hole Blocklist",
+      "source": "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "BarbBlock",
+      "source": "https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Winhelp MVPS Hosts",
+      "source": "https://winhelp2002.mvps.org/hosts.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "uBlock filters - Default",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Badware risks",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Privacy",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Resource abuse",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Unbreak",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "OISD Full List",
+      "source": "https://abp.oisd.nl",
+      "type": "adblock"
+    },
+    {
+      "name": "Lightswitch05 - Ads and Tracking",
+      "source": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - Facebook",
+      "source": "https://www.github.developerdan.com/hosts/lists/facebook-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - AMP Hosts",
+      "source": "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - Dating Services",
+      "source": "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - Tracking Aggressive",
+      "source": "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "PolishFiltersTeam - KADhosts",
+      "source": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "FadeMind - Hosts Extra (Spam Hosts)",
+      "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "Firebog - Personal Blocklist by WaLLy3K",
+      "source": "https://v.firebog.net/hosts/static/w3kbl.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - Neohostsbasic",
+      "source": "https://v.firebog.net/hosts/neohostsbasic.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - AdGuardDNS",
+      "source": "https://v.firebog.net/hosts/AdguardDNS.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - Admiral",
+      "source": "https://v.firebog.net/hosts/Admiral.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - Easylist",
+      "source": "https://v.firebog.net/hosts/Admiral.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - Prigent Crypto",
+      "source": "https://v.firebog.net/hosts/Prigent-Crypto.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - Prigent Malware",
+      "source": "https://v.firebog.net/hosts/Prigent-Malware.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Firebog - Shalla-mal",
+      "source": "https://v.firebog.net/hosts/Shalla-mal.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Matomo - Referrer Spam Blacklist",
+      "source": "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "VeleSila - yhosts",
+      "source": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "RooneyMcNibNug - PiHole Stuff (SNAFU)",
+      "source": "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "anudeepND - Adservers",
+      "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "anudeepND - Facebook",
+      "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Ad filter list by Disconnect",
+      "source": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Peter Lowe's List",
+      "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext",
+      "type": "adblock"
+    },
+    {
+      "name": "Perflyst and Dandelion Sprout's Smart-TV Blocklist",
+      "source": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Spam404",
+      "source": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Game Console Adblock List",
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "NoCoin Filter List",
+      "source": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "ABPVN List",
+      "source": "https://abpvn.com/android/abpvn.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "FadeMind - UncheckyAds",
+      "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "FadeMind - Additional Risks",
+      "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "bigdargon - hostsVN",
+      "source": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "jdlingyu - ad-wars",
+      "source": "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts",
+      "type": "hosts"
+    },
+    {
+      "name": "Threat-Intel",
+      "source": "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "ethanr - DNS-Blacklists",
+      "source": "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Phishing Army | The Blocklist to filter Phishing",
+      "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "NoTrack Malware Blocklist",
+      "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "abuse.ch URLhaus Host file",
+      "source": "https://urlhaus.abuse.ch/downloads/hostfile/",
+      "type": "hosts"
+    },
+    {
+      "name": "ZeroDot1 - CoinBlockerLists",
+      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
+      "type": "hosts"
+    },
+    {
+      "name": "StevenBlack - Hosts",
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "type": "hosts"
+    }
+  ],
+  "transformations": [
+    "RemoveComments"
+  ]
+}

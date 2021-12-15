@@ -68,7 +68,7 @@ source_lists=(
     "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts" # FadeMind - Additional Risks
     "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts" # bigdargon - hostsVN
     "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts" # jdlingyu - ad-wars
-    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt" # Dandelion Sprout's Anti-Malware List («hosts» file version)
+    "https://github.com/DandelionSprout/adfilt/blob/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt" # Dandelion Sprout's Anti-Malware List
     "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt" # Threat-Intel
     "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt" # ethanr - DNS-Blacklists
     "https://phishing.army/download/phishing_army_blocklist_extended.txt" # Phishing Army | The Blocklist to filter Phishing
