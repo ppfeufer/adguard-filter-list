@@ -14,7 +14,8 @@ Pretty simple, copy this link (https://raw.githubusercontent.com/ppfeufer/adguar
 
 ## Which lists are combined here?
 
-Which lists I'm using here, you can see in the shell script that puts this list together » [click here](create-adguard-blocklist.sh)
+Which lists I'm using here, you can see in hostlist compiler configuration » [click here](hostlist-compiler-config.json)
+
 
 ## Do you curate the lists?
 
@@ -43,4 +44,4 @@ As stated [here](https://github.com/lightswitch05/hosts#google-fonts) from one o
 
 You are free to use this list, but I can give you no guarantee for it since none of the lists combined here is managed by me.
 
-If you want to create your own combined list, feel free to fork this repository and change the shell script I included to start your own voyage.
+If you want to create your own combined list, feel free to fork this repository and change the hostlist compiler configuration I included to start your own voyage. To compile the hostlist use [AdGuard's HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler).
