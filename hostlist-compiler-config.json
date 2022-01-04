@@ -1,6 +1,6 @@
 {
   "name": "ppfeufer/adguard-filter-list",
-  "description": "DNS block list that can be used for AdGuardHome and Pi-Hole. (AdGuardHome is tested but should also work in Pi-Hole without problems)",
+  "description": "DNS block list that can be used for AdGuardHome and Pi-Hole. (AdGuardHome is tested but should also work in Pi-hole without problems)",
   "homepage": "https://github.com/ppfeufer/adguard-filter-list",
   "license": "GPLv3",
   "sources": [
@@ -40,7 +40,7 @@
       "type": "adblock"
     },
     {
-      "name": "ABPindo",
+      "name": "IDN: ABPindo",
       "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
       "type": "adblock"
     },
@@ -77,6 +77,11 @@
     {
       "name": "CHN: anti-AD",
       "source": "https://anti-ad.net/easylist.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "NLD: Easylist",
+      "source": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
       "type": "adblock"
     },
     {
@@ -245,8 +250,13 @@
       "type": "adblock"
     },
     {
-      "name": "Spam404",
+      "name": "Spam404 - Main Blacklist",
       "source": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Spam404 - Adblock List",
+      "source": "https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt",
       "type": "adblock"
     },
     {
@@ -260,7 +270,7 @@
       "type": "hosts"
     },
     {
-      "name": "ABPVN List",
+      "name": "VNM: ABPVN List",
       "source": "https://abpvn.com/android/abpvn.txt",
       "type": "hosts"
     },
