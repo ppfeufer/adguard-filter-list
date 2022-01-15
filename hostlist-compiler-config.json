@@ -588,6 +588,141 @@
         "RemoveComments",
         "Compress"
       ]
+    },
+    {
+      "name": "Adblock Warning Removal List",
+      "source": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "ABP filters",
+      "source": "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "AdGuard CNAME disguised trackers list",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Easylist Cookie List",
+      "source": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "EasyPrivacy",
+      "source": "https://easylist.to/easylist/easyprivacy.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Matomo.org - referrer spammers",
+      "source": "https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS CNAME Cloaking Blocklist",
+      "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - alexa",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - apple",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - huawei",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - roku",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - samsung",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - sonos",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - windows",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "NextDNS Privacy - xiaomi",
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
     }
   ],
   "transformations": [
