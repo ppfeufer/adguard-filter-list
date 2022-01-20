@@ -1,0 +1,3 @@
+#!/bin/bash
+
+time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist

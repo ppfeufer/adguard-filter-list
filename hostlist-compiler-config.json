@@ -723,6 +723,24 @@
         "RemoveComments",
         "Compress"
       ]
+    },
+    {
+      "name": "EU US most prevalent ads & trackers ABP format for uBlockOrigin and Adguard",
+      "source": "https://raw.githubusercontent.com/Zelo72/rpi/master/pihole/blocklists/kees1958.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "First-party trackers host list",
+      "source": "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt",
+      "type": "hosts",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
     }
   ],
   "transformations": [
