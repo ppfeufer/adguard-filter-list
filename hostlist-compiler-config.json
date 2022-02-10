@@ -735,6 +735,7 @@
     }
   ],
   "transformations": [
+    "RemoveComments",
     "Deduplicate"
   ]
 }
