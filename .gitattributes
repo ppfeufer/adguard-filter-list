@@ -1,2 +1,0 @@
-compile-hostlist.log filter=lfs diff=lfs merge=lfs -text
-blocklist filter=lfs diff=lfs merge=lfs -text
