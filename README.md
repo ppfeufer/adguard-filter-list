@@ -26,7 +26,7 @@ All these lists are considered 3rd party from my point of view. I have no influe
 
 ## How often is this list updated?
 
-Every 12 hours
+Every full hour
 
 
 ## Whitelist exceptions you might want to make
