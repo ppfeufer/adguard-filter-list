@@ -39,6 +39,14 @@ As stated [here](https://github.com/lightswitch05/hosts#google-fonts) from one o
 @@||fonts.gstatic.com^$important
 ```
 
+### Eve Online
+
+If you are playing Eve Online by any chance, you also might want to add the following line to your custom filter rules:
+
+```plaintext
+@@||extccp.com^$important
+```
+
 
 ## Last words
 
