@@ -653,7 +653,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - alexa",
+      "name": "NextDNS Privacy - Alexa",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa",
       "type": "adblock",
       "transformations": [
@@ -662,7 +662,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - apple",
+      "name": "NextDNS Privacy - Apple",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple",
       "type": "adblock",
       "transformations": [
@@ -671,7 +671,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - huawei",
+      "name": "NextDNS Privacy - Huawei",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei",
       "type": "adblock",
       "transformations": [
@@ -680,7 +680,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - roku",
+      "name": "NextDNS Privacy - Roku",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku",
       "type": "adblock",
       "transformations": [
@@ -689,7 +689,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - samsung",
+      "name": "NextDNS Privacy - Samsung",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung",
       "type": "adblock",
       "transformations": [
@@ -698,7 +698,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - sonos",
+      "name": "NextDNS Privacy - Sonos",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos",
       "type": "adblock",
       "transformations": [
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - windows",
+      "name": "NextDNS Privacy - Windows",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows",
       "type": "adblock",
       "transformations": [
@@ -716,7 +716,7 @@
       ]
     },
     {
-      "name": "NextDNS Privacy - xiaomi",
+      "name": "NextDNS Privacy - Xiaomi",
       "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi",
       "type": "adblock",
       "transformations": [
