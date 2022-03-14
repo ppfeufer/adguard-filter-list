@@ -9,7 +9,7 @@ This list combines more than 60 other lists, including the default lists from Ad
 
 ## How can I use it?
 
-Pretty simple, copy this link (https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and add it to your AgDuardHome or Pi-hole DNS blocklists.
+Pretty simple, copy this link (https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and add it to your AdGuardHome or Pi-hole DNS blocklists.
 
 
 ## Which lists are combined here?
