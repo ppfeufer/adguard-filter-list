@@ -14,17 +14,7 @@ Pretty simple, copy this link (https://github.com/ppfeufer/adguard-filter-list/b
 
 ## Which lists are combined here?
 
-Which lists I'm using here, you can see in hostlist compiler configuration » [click here](hostlist-compiler-config.json)
-
-
-## Do you curate the lists?
-
-Absolutely not.
-
-All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of blocklists isn't massive. (That was a lot of lists in one sentence ...)
-
-
-## Which lists are combined here?
+Which lists I'm using here, you can see in hostlist compiler configuration » [click here](hostlist-compiler-config.json) « or have a look at the table below.
 
 | Name | URL |
 |---|---|
@@ -109,6 +99,13 @@ All these lists are considered 3rd party from my point of view. I have no influe
 | NextDNS Privacy - Windows | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows |
 | NextDNS Privacy - Xiaomi | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi |
 | First-party trackers host list | https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt |
+
+
+## Do you curate the lists?
+
+Absolutely not.
+
+All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of blocklists isn't massive. (That was a lot of lists in one sentence ...)
 
 
 ## How often is this list updated?
