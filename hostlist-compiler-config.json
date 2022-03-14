@@ -104,7 +104,7 @@
       ]
     },
     {
-      "name": "Dandelion Sprout's Anti-Malware List («hosts» file version)",
+      "name": "Dandelion Sprout's Anti-Malware List (for AdGuard Home, and for AdGuard for Android/Windows' DNS filtering)",
       "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt",
       "type": "adblock",
       "transformations": [
