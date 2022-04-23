@@ -55,7 +55,7 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | Firebog - Neohostsbasic | https://v.firebog.net/hosts/neohostsbasic.txt |
 | Firebog - AdGuardDNS | https://v.firebog.net/hosts/AdguardDNS.txt |
 | Firebog - Admiral | https://v.firebog.net/hosts/Admiral.txt |
-| Firebog - Easylist | https://v.firebog.net/hosts/Admiral.txt |
+| Firebog - Easylist | https://v.firebog.net/hosts/Easylist.txt |
 | Firebog - Prigent Crypto | https://v.firebog.net/hosts/Prigent-Crypto.txt |
 | Firebog - Prigent Malware | https://v.firebog.net/hosts/Prigent-Malware.txt |
 | Firebog - Shalla-mal | https://v.firebog.net/hosts/Shalla-mal.txt |
@@ -99,6 +99,10 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | NextDNS Privacy - Windows | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows |
 | NextDNS Privacy - Xiaomi | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi |
 | First-party trackers host list | https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt |
+| Firebog - Easyprivacy | https://v.firebog.net/hosts/Easyprivacy.txt |
+| Firebog - Prigent-Ads | https://v.firebog.net/hosts/Prigent-Ads.txt |
+| FadeMind - hosts.extras/add.2o7Net | https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts |
+| Malvertising list by Disconnect | https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt |
 
 
 ## Do you curate the lists?

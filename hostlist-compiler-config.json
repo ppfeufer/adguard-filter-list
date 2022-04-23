@@ -339,7 +339,7 @@
     },
     {
       "name": "Firebog - Easylist",
-      "source": "https://v.firebog.net/hosts/Admiral.txt",
+      "source": "https://v.firebog.net/hosts/Easylist.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
@@ -545,7 +545,7 @@
       ]
     },
     {
-      "name": "Phishing Army | The Blocklist to filter Phishing",
+      "name": "Phishing Army - The Blocklist to filter Phishing",
       "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "type": "adblock",
       "transformations": [
@@ -728,6 +728,42 @@
       "name": "First-party trackers host list",
       "source": "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt",
       "type": "hosts",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Firebog - Easyprivacy",
+      "source": "https://v.firebog.net/hosts/Easyprivacy.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Firebog - Prigent-Ads",
+      "source": "https://v.firebog.net/hosts/Prigent-Ads.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "FadeMind - hosts.extras/add.2o7Net",
+      "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
+      "type": "hosts",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Malvertising list by Disconnect",
+      "source": "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt",
+      "type": "adblock",
       "transformations": [
         "RemoveComments",
         "Compress"
