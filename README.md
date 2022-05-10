@@ -2,14 +2,14 @@
 
 ## What is this?
 
-This is a DNS blocklist that can be used for AdGuardHome and Pi-hole. (AdGuardHome is tested but should also work in Pi-hole without problems)
+This is a DNS blocklist that can be used for AdGuardHome. (Does not work with Pi-hole)
 
-This list combines more than 60 other lists, including the default lists from AdGuardHome, into one single list, so you don't have to add countless lists to your AdGuardHome or Pi-hole, but just this one.
+This list combines more than 80 other lists, including the default lists from AdGuardHome, into one single list, so you don't have to add countless lists to your AdGuardHome, but just this one.
 
 
 ## How can I use it?
 
-Pretty simple, copy this link (https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and add it to your AdGuardHome or Pi-hole DNS blocklists.
+Pretty simple, copy this link (https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and add it to your AdGuardHome DNS blocklists.
 
 
 ## Which lists are combined here?
