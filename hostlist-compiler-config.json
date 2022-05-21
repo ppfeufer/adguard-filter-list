@@ -768,6 +768,15 @@
         "RemoveComments",
         "Compress"
       ]
+    },
+    {
+      "name": "Phishing URL Blocklist (AdGuard Home)",
+      "source": "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
     }
   ],
   "transformations": [
