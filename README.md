@@ -24,7 +24,7 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | WindowsSpyBlocker - Hosts spy rules | https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt |
 | Scam Blocklist by DurableNapkin | https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt |
 | The Big List of Hacked Malware Web Sites | https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts |
-| Online Malicious URL Blocklist (AdGuard Home) | https://curben.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt |
+| Online Malicious URL Blocklist (AdGuard Home) | https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt |
 | IDN: ABPindo | https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt |
 | ITA: Filtri-DNS | https://filtri-dns.ga/filtri.txt |
 | KOR: YousList | https://raw.githubusercontent.com/yous/YousList/master/hosts.txt |
