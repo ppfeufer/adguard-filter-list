@@ -777,6 +777,25 @@
         "RemoveComments",
         "Compress"
       ]
+    },
+    {
+      "name": "HaGeZi's Multi DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    }
+    ,
+    {
+      "name": "The Ultimate Hosts Blacklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/3p/ultimatehosts.adblock.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
     }
   ],
   "transformations": [

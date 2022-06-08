@@ -104,6 +104,8 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | FadeMind - hosts.extras/add.2o7Net | https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts |
 | Malvertising list by Disconnect | https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt |
 | Phishing URL Blocklist (AdGuard Home) | https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt |
+| HaGeZi's Multi DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt |
+| The Ultimate Hosts Blacklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/3p/ultimatehosts.adblock.txt |
 
 
 ## Do you curate the lists?
