@@ -1,6 +1,6 @@
 {
   "name": "ppfeufer/adguard-filter-list",
-  "description": "DNS block list that can be used for AdGuardHome and Pi-Hole. (AdGuardHome is tested but should also work in Pi-hole without problems)",
+  "description": "DNS block list that can be used for AdGuardHome.  (Does not work with Pi-hole)",
   "homepage": "https://github.com/ppfeufer/adguard-filter-list",
   "license": "GPLv3",
   "sources": [
