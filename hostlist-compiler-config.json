@@ -786,11 +786,28 @@
         "RemoveComments",
         "Compress"
       ]
-    }
-    ,
+    },
     {
-      "name": "The Ultimate Hosts Blacklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/3p/ultimatehosts.adblock.txt",
+      "name": "HaGeZi's DoH/VPN/TOR/Proxy Bypass DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "HaGeZi's Fake DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",

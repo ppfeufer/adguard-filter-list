@@ -105,7 +105,9 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | Malvertising list by Disconnect | https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt |
 | Phishing URL Blocklist (AdGuard Home) | https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt |
 | HaGeZi's Multi DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt |
-| The Ultimate Hosts Blacklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/3p/ultimatehosts.adblock.txt |
+| HaGeZi's DoH/VPN/TOR/Proxy Bypass DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt |
+| HaGeZi's Fake DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt |
+| HaGeZi's Threat Intelligence Feeds DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt |
 
 
 ## Do you curate the lists?
