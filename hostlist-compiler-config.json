@@ -805,6 +805,16 @@
         "Compress"
       ]
     }
+    ,
+    {
+      "name": "FR: French filters RedFlagDomains",
+      "source": "https://dl.red.flag.domains/red.flag.domains.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    }
   ],
   "transformations": [
     "RemoveComments",

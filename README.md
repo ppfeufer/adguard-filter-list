@@ -107,6 +107,7 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | HaGeZi's DoH/VPN/TOR/Proxy Bypass DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt |
 | HaGeZi's Fake DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt |
 | HaGeZi's Threat Intelligence Feeds DNS Blocklist | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt |
+| FR: French filters RedFlagDomains | https://dl.red.flag.domains/red.flag.domains.txt |
 
 
 ## Do you curate the lists?
