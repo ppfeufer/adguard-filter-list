@@ -231,7 +231,7 @@
     },
     {
       "name": "OISD Full List",
-      "source": "https://abp.oisd.nl",
+      "source": "https://github.com/sjhgvr/oisd/blob/main/abp_full.txt?raw=true",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
