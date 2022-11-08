@@ -19,6 +19,7 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | Name | URL |
 |---|---|
 | AdGuard DNS filter | https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt |
+| AdGuard MobileFilter | https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt |
 | AdAway Default Blocklist | https://adaway.org/hosts.txt |
 | Dan Pollock's List | https://someonewhocares.org/hosts/zero/hosts |
 | WindowsSpyBlocker - Hosts spy rules | https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt |
