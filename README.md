@@ -1,18 +1,18 @@
 # AdGuardHome DNS Filter List
 
-## What is this?
+## What Is This?
 
 This is a DNS blocklist that can be used for AdGuardHome. (Does not work with Pi-hole)
 
 This list combines more than 80 other lists, including the default lists from AdGuardHome, into one single list, so you don't have to add countless lists to your AdGuardHome, but just this one.
 
 
-## How can I use it?
+## How Can I Use It?
 
 Pretty simple, copy this link (https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and add it to your AdGuardHome DNS blocklists.
 
 
-## Which lists are combined here?
+## Which Lists Are Combined Here?
 
 Which lists I'm using here, you can see in hostlist compiler configuration » [click here](hostlist-compiler-config.json) « or have a look at the table below.
 
@@ -111,19 +111,19 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | FR: French filters RedFlagDomains | https://dl.red.flag.domains/red.flag.domains.txt |
 
 
-## Do you curate the lists?
+## Do You Curate the Lists?
 
 Absolutely not.
 
 All these lists are considered 3rd party from my point of view. I have no influence over them at all. All I do is combine the lists I was using into one single list, so my list of blocklists isn't massive. (That was a lot of lists in one sentence ...)
 
 
-## How often is this list updated?
+## How Often Is This List Updated?
 
 Every full hour
 
 
-## Whitelist exceptions you might want to make
+## Whitelist Exceptions You Might Want to Make
 
 ### Google Fonts
 
@@ -142,7 +142,7 @@ If you are playing Eve Online by any chance, you also might want to add the foll
 ```
 
 
-## Last words
+## Last Words
 
 You are free to use this list, but I can give you no guarantee for it since none of the lists combined here is managed by me.
 
