@@ -120,7 +120,7 @@ All these lists are considered 3rd party from my point of view. I have no influe
 
 ## How Often Is This List Updated?
 
-Every full hour
+Once a day
 
 
 ## Whitelist Exceptions You Might Want to Make
