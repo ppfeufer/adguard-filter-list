@@ -90,14 +90,14 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | Easylist Cookie List | https://secure.fanboy.co.nz/fanboy-cookiemonster.txt |
 | EasyPrivacy | https://easylist.to/easylist/easyprivacy.txt |
 | NextDNS CNAME Cloaking Blocklist | https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains |
-| NextDNS Privacy - Alexa | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa |
-| NextDNS Privacy - Apple | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple |
-| NextDNS Privacy - Huawei | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei |
-| NextDNS Privacy - Roku | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku |
-| NextDNS Privacy - Samsung | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung |
-| NextDNS Privacy - Sonos | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos |
-| NextDNS Privacy - Windows | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows |
-| NextDNS Privacy - Xiaomi | https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi |
+| NextDNS Privacy - Alexa | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa |
+| NextDNS Privacy - Apple | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple |
+| NextDNS Privacy - Huawei | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei |
+| NextDNS Privacy - Roku | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku |
+| NextDNS Privacy - Samsung | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung |
+| NextDNS Privacy - Sonos | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos |
+| NextDNS Privacy - Windows | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows |
+| NextDNS Privacy - Xiaomi | https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi |
 | First-party trackers host list | https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt |
 | Firebog - Easyprivacy | https://v.firebog.net/hosts/Easyprivacy.txt |
 | Firebog - Prigent-Ads | https://v.firebog.net/hosts/Prigent-Ads.txt |
