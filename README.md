@@ -44,7 +44,7 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | uBlock filters – Privacy | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt |
 | uBlock filters – Resource abuse | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt |
 | uBlock filters – Unbreak | https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt |
-| OISD Full List | https://abp.oisd.nl |
+| OISD Full List | https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_big.txtl |
 | Lightswitch05 - Ads and Tracking | https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt |
 | Lightswitch05 - Facebook | https://www.github.developerdan.com/hosts/lists/facebook-extended.txt |
 | Lightswitch05 - AMP Hosts | https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt |

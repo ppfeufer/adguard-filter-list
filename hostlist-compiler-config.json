@@ -240,7 +240,7 @@
     },
     {
       "name": "OISD Full List",
-      "source": "https://github.com/sjhgvr/oisd/blob/main/abp_full.txt?raw=true",
+      "source": "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_big.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
