@@ -239,8 +239,8 @@
       ]
     },
     {
-      "name": "OISD Full List",
-      "source": "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_big.txt",
+      "name": "OISD Big List",
+      "source": "https://big.oisd.nl",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
