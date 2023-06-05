@@ -86,15 +86,6 @@
       ]
     },
     {
-      "name": "ITA: Filtri-DNS",
-      "source": "https://filtri-dns.ga/filtri.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress"
-      ]
-    },
-    {
       "name": "KOR: YousList",
       "source": "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt",
       "type": "hosts",
