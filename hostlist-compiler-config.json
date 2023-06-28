@@ -600,7 +600,7 @@
     },
     {
       "name": "AdGuard CNAME disguised trackers list",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
