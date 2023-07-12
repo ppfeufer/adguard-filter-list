@@ -13,6 +13,9 @@ sed -i '/^@@/d' blocklist
 # Remove empty lines
 sed -i '/^$/d' blocklist
 
+# Remove rules that are too long (These are most likely non DNR related rules, see https://github.com/AdguardTeam/AdGuardHome/issues/6003)
+sed -i '/^.\{1024,\}/d' blocklist
+
 # Date and time
 currentDate=`/bin/date '+%Y-%m-%d'`
 currentTime=`/bin/date '+%H:%M:%S'`
