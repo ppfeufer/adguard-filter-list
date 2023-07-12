@@ -11,6 +11,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -20,6 +21,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -29,6 +31,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -38,6 +41,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -47,6 +51,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -56,6 +61,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -64,7 +70,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Validate"
       ]
     },
     {
@@ -74,6 +80,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -83,6 +90,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -92,6 +100,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -101,6 +110,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -110,6 +120,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -119,6 +130,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -128,6 +140,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -137,6 +150,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -146,6 +160,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -155,6 +170,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -164,6 +180,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -173,6 +190,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -182,6 +200,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -191,6 +210,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -200,6 +220,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -209,6 +230,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -218,6 +240,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -227,6 +250,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -236,6 +260,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -245,6 +270,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -254,6 +280,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -263,6 +290,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -272,6 +300,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -281,6 +310,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -290,6 +320,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -299,6 +330,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -308,6 +340,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -317,6 +350,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -326,6 +360,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -335,6 +370,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -344,6 +380,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -353,6 +390,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -362,6 +400,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -371,6 +410,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -380,6 +420,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -389,6 +430,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -398,6 +440,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -407,6 +450,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -416,6 +460,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -425,6 +470,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -434,6 +480,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -443,6 +490,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -452,6 +500,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -461,6 +510,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -470,6 +520,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -479,6 +530,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -488,6 +540,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -497,6 +550,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -506,6 +560,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -515,6 +570,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -524,6 +580,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -533,6 +590,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -542,6 +600,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -551,6 +610,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -560,6 +620,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -569,6 +630,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -578,6 +640,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -587,6 +650,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -596,6 +660,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -605,6 +670,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -614,6 +680,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -623,6 +690,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -632,6 +700,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -641,6 +710,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -650,6 +720,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -659,6 +730,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -668,6 +740,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -677,6 +750,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -686,6 +760,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -695,6 +770,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -704,6 +780,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -713,6 +790,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -722,6 +800,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -731,6 +810,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -740,6 +820,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -749,6 +830,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -758,6 +840,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -767,6 +850,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -776,6 +860,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -785,6 +870,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -794,6 +880,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     },
     {
@@ -803,6 +890,7 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     }
     ,
@@ -813,11 +901,16 @@
       "transformations": [
         "RemoveComments",
         "Compress"
+        "Validate"
       ]
     }
   ],
   "transformations": [
     "RemoveComments",
-    "Deduplicate"
+    "Validate"
+    "Deduplicate",
+    "TrimLines",
+    "InsertFinalNewLine",
+    "RemoveEmptyLines"
   ]
 }
