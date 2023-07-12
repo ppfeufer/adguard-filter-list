@@ -10,7 +10,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -20,7 +20,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -30,7 +30,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -40,7 +40,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -50,7 +50,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -60,7 +60,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -79,7 +79,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -89,7 +89,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -99,7 +99,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -109,7 +109,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -119,7 +119,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -129,7 +129,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -139,7 +139,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -149,7 +149,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -159,7 +159,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -169,7 +169,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -179,7 +179,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -189,7 +189,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -199,7 +199,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -209,7 +209,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -219,7 +219,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -229,7 +229,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -239,7 +239,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -249,7 +249,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -259,7 +259,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -269,7 +269,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -279,7 +279,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -289,7 +289,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -299,7 +299,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -309,7 +309,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -319,7 +319,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -329,7 +329,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -339,7 +339,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -349,7 +349,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -359,7 +359,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -369,7 +369,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -379,7 +379,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -389,7 +389,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -399,7 +399,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -409,7 +409,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -419,7 +419,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -429,7 +429,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -439,7 +439,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -449,7 +449,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -459,7 +459,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -469,7 +469,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -479,7 +479,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -489,7 +489,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -499,7 +499,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -509,7 +509,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -519,7 +519,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -529,7 +529,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -539,7 +539,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -549,7 +549,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -559,7 +559,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -569,7 +569,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -579,7 +579,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -589,7 +589,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -599,7 +599,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -609,7 +609,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -619,7 +619,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -629,7 +629,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -639,7 +639,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -649,7 +649,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -659,7 +659,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -669,7 +669,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -679,7 +679,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -689,7 +689,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -699,7 +699,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -709,7 +709,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -719,7 +719,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -729,7 +729,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -739,7 +739,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -749,7 +749,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -759,7 +759,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -769,7 +769,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -779,7 +779,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -789,7 +789,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -799,7 +799,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -809,7 +809,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -819,7 +819,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -829,7 +829,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -839,7 +839,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -849,7 +849,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -859,7 +859,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -869,7 +869,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -879,7 +879,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     },
@@ -889,7 +889,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     }
@@ -900,7 +900,7 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
         "Validate"
       ]
     }
