@@ -8,7 +8,7 @@ cd /var/www/ppfeufer/adguard-filter-list
 time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 
 # Remove all whitelisted entries, this is a blocklist after all
-sed -i '/^@@/d' blocklist
+#sed -i '/^@@/d' blocklist
 
 # Remove empty lines
 #sed -i '/^$/d' blocklist
