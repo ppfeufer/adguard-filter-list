@@ -4,6 +4,9 @@
 
 cd /var/www/ppfeufer/adguard-filter-list
 
+# Make sure the local git repo is up to date
+git pull
+
 # Create compiled blocklist
 time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 
