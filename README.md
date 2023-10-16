@@ -1,23 +1,25 @@
-# AdGuardHome DNS Filter List
+# AdGuardHome DNS Filter List<a name="adguardhome-dns-filter-list"></a>
 
----
+______________________________________________________________________
 
-<!-- TOC -->
-* [AdGuardHome DNS Filter List](#adguardhome-dns-filter-list)
-  * [What Is This?](#what-is-this)
-  * [How Can I Use It?](#how-can-i-use-it)
-  * [Which Lists Are Combined Here?](#which-lists-are-combined-here)
-  * [Do You Curate the Lists?](#do-you-curate-the-lists)
-  * [How Often Is This List Updated?](#how-often-is-this-list-updated)
-  * [Whitelist Exceptions You Might Want to Make](#whitelist-exceptions-you-might-want-to-make)
-    * [Google Fonts](#google-fonts)
-    * [Eve Online](#eve-online)
-  * [Last Words](#last-words)
-<!-- TOC -->
+<!-- mdformat-toc start --slug=github --maxlevel=6 --minlevel=1 -->
 
----
+- [AdGuardHome DNS Filter List](#adguardhome-dns-filter-list)
+  - [What Is This?](#what-is-this)
+  - [How Can I Use It?](#how-can-i-use-it)
+  - [Which Lists Are Combined Here?](#which-lists-are-combined-here)
+  - [Do You Curate the Lists?](#do-you-curate-the-lists)
+  - [How Often Is This List Updated?](#how-often-is-this-list-updated)
+  - [Whitelist Exceptions You Might Want to Make](#whitelist-exceptions-you-might-want-to-make)
+    - [Google Fonts](#google-fonts)
+    - [Eve Online](#eve-online)
+  - [Last Words](#last-words)
 
-## What Is This?
+<!-- mdformat-toc end -->
+
+______________________________________________________________________
+
+## What Is This?<a name="what-is-this"></a>
 
 This is a DNS blocklist that can be used for AdGuardHome. (Does not work with Pi-hole)
 
@@ -25,21 +27,19 @@ This list combines more than 80 other lists, including the default lists from
 AdGuardHome, into one single list, so you don't have to add countless lists to your
 AdGuardHome, but just this one.
 
-
-## How Can I Use It?
+## How Can I Use It?<a name="how-can-i-use-it"></a>
 
 Pretty simple, copy this link
 (https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and
 add it to your AdGuardHome DNS blocklists.
 
-
-## Which Lists Are Combined Here?
+## Which Lists Are Combined Here?<a name="which-lists-are-combined-here"></a>
 
 Which lists I'm using here, you can see in hostlist compiler configuration
 » [clickhere](hostlist-compiler-config.json) « or have a look at the table below.
 
 | Name                                                                                                        | URL                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | AdGuard DNS filter                                                                                          | https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt                                                                            |
 | AdGuard MobileFilter                                                                                        | https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt                                    |
 | AdAway Default Blocklist                                                                                    | https://adaway.org/hosts.txt                                                                                                                  |
@@ -131,8 +131,7 @@ Which lists I'm using here, you can see in hostlist compiler configuration
 | HaGeZi's Threat Intelligence Feeds DNS Blocklist                                                            | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt                                                                  |
 | FR: French filters RedFlagDomains                                                                           | https://dl.red.flag.domains/red.flag.domains.txt                                                                                              |
 
-
-## Do You Curate the Lists?
+## Do You Curate the Lists?<a name="do-you-curate-the-lists"></a>
 
 Absolutely not.
 
@@ -140,15 +139,13 @@ All these lists are considered 3rd party from my point of view. I have no influe
 over them at all. All I do is combine the lists I was using into one single list, so
 my list of blocklists isn't massive. (That was a lot of lists in one sentence ...)
 
-
-## How Often Is This List Updated?
+## How Often Is This List Updated?<a name="how-often-is-this-list-updated"></a>
 
 Once a day
 
+## Whitelist Exceptions You Might Want to Make<a name="whitelist-exceptions-you-might-want-to-make"></a>
 
-## Whitelist Exceptions You Might Want to Make
-
-### Google Fonts
+### Google Fonts<a name="google-fonts"></a>
 
 As stated [here](https://github.com/lightswitch05/hosts#google-fonts) from one of
 the lists I am using, you might have to whitelist `fonts.gstatic.com`. To do so, add
@@ -158,7 +155,7 @@ the following to your whitelist:
 @@||fonts.gstatic.com^$important
 ```
 
-### Eve Online
+### Eve Online<a name="eve-online"></a>
 
 If you are playing Eve Online by any chance, you also might want to add the
 following line to your custom filter rules:
@@ -167,8 +164,7 @@ following line to your custom filter rules:
 @@||extccp.com^$important
 ```
 
-
-## Last Words
+## Last Words<a name="last-words"></a>
 
 You are free to use this list, but I can give you no guarantee for it since none of
 the lists combined here is managed by me.
