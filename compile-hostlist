@@ -7,6 +7,9 @@ cd /var/www/ppfeufer/adguard-filter-list
 # Make sure the local git repo is up to date
 git pull
 
+# Get OISD list, since the HostlistCompiler can't fetch it for whatever reason » https://github.com/AdguardTeam/HostlistCompiler/issues/58
+curl https://big.oisd.nl/ -o ../oisd.txt
+
 # Create compiled blocklist
 time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 
