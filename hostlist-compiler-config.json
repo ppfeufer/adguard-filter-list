@@ -594,16 +594,6 @@
       ]
     },
     {
-      "name": "Phishing Army - The Blocklist to filter Phishing",
-      "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "NoTrack Malware Blocklist",
       "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
       "type": "adblock",
