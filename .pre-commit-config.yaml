@@ -23,7 +23,7 @@ ci:
 # pre-commit setup
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       # Identify invalid files
       - id: check-ast
