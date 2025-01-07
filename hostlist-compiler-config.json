@@ -614,16 +614,6 @@
       ]
     },
     {
-      "name": "ZeroDot1 - CoinBlockerLists",
-      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "StevenBlack - Hosts",
       "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "type": "hosts",
