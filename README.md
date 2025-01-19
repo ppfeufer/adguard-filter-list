@@ -36,7 +36,7 @@ add it to your AdGuardHome DNS blocklists.
 ## Which Lists Are Combined Here?<a name="which-lists-are-combined-here"></a>
 
 Which lists I'm using here, you can see in hostlist compiler configuration
-» [clickhere](hostlist-compiler-config.json) « or have a look at the table below.
+» [click here](hostlist-compiler-config.json) « or have a look at the table below.
 
 | Name                                                                                                        | URL                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
