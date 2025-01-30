@@ -1,7 +1,7 @@
 # Apply to all files without committing:
 #   pre-commit run --all-files
 # Update this file:
-#   pre-commit autoupdate
+#   pre-commit autoupdate --freeze
 
 default_language_version:
   # force all unspecified python hooks to run python3
@@ -14,16 +14,24 @@ ci:
 
     for more information, see https://pre-commit.ci
   autofix_prs: false
-  autoupdate_branch: 'master'
+  autoupdate_branch: ''
   autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
   autoupdate_schedule: monthly
   skip: []
   submodules: false
 
+# Globally exclude files
+# https://pre-commit.com/#top_level-exclude
+exclude: |
+  (?x)(
+    .github/|
+    LICENSE
+  )
+
 # pre-commit setup
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: cef0300fd0fc4d2a87a85fa2093c6b283ea36f4b  # frozen: v5.0.0
     hooks:
       # Identify invalid files
       - id: check-ast
@@ -36,7 +44,7 @@ repos:
       - id: check-merge-conflict
       - id: check-added-large-files
         args:
-          - --maxkb=1000
+          - --maxkb=10000
       - id: detect-private-key
       - id: check-case-conflict
 
@@ -51,24 +59,16 @@ repos:
       - id: end-of-file-fixer
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: 3.0.3
+    rev: 1a92c0953500d402fc49ceb67ad7fbf7cabad38a  # frozen: 3.0.3
     hooks:
       - id: editorconfig-checker
-        exclude: |
-          (?x)(
-            LICENSE
-          )
 
   - repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.21
+    rev: e20b1ac5acb8aba0b49d3a9109c6e6b58684ee83  # frozen: 0.7.21
     hooks:
       - id: mdformat
-        exclude: |
-          (?x)(
-            .github/
-          )
         additional_dependencies:
-          - mdformat-gfm==0.3.5  # Mdformat plugin for GitHub Flavored Markdown compatibility » https://github.com/hukkin/mdformat-gfm/tags
+          - mdformat-gfm==0.4.1  # Mdformat plugin for GitHub Flavored Markdown compatibility » https://github.com/hukkin/mdformat-gfm/tags
           - mdformat-toc==0.3.0  # Mdformat plugin to generate a table of contents » https://github.com/hukkin/mdformat-toc/tags
           - mdformat-black==0.1.1  # Mdformat plugin to Blacken Python code blocks » https://github.com/hukkin/mdformat-black/tags
-          - mdformat-shfmt==0.1.0  # Mdformat plugin to format shell code blocks » https://github.com/hukkin/mdformat-shfmt/tags
+          - mdformat-shfmt==0.2.0  # Mdformat plugin to format shell code blocks » https://github.com/hukkin/mdformat-shfmt/tags
