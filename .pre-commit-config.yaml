@@ -59,12 +59,12 @@ repos:
       - id: end-of-file-fixer
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: 1a92c0953500d402fc49ceb67ad7fbf7cabad38a  # frozen: 3.0.3
+    rev: c764d820bfc7d772ae9cc86b4696c375aee944a4  # frozen: 3.2.0
     hooks:
       - id: editorconfig-checker
 
   - repo: https://github.com/executablebooks/mdformat
-    rev: e20b1ac5acb8aba0b49d3a9109c6e6b58684ee83  # frozen: 0.7.21
+    rev: ff29be1a1ba8029d9375882aa2c812b62112a593  # frozen: 0.7.22
     hooks:
       - id: mdformat
         additional_dependencies:
