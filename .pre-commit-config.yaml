@@ -59,7 +59,7 @@ repos:
       - id: end-of-file-fixer
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: c764d820bfc7d772ae9cc86b4696c375aee944a4  # frozen: 3.2.0
+    rev: 3bea62898235acc3f05c1d9c33023345f6cd3c6f  # frozen: 3.2.1
     hooks:
       - id: editorconfig-checker
 
