@@ -35,16 +35,6 @@
       ]
     },
     {
-      "name": "Dan Pollock's List",
-      "source": "https://someonewhocares.org/hosts/zero/hosts",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "WindowsSpyBlocker - Hosts spy rules",
       "source": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
       "type": "hosts",
