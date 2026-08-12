@@ -804,6 +804,46 @@
       ]
     },
     {
+      "name": "HaGeZi's Multi DNS Blocklist",
+      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/multi.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "HaGeZi's DoH/VPN/TOR/Proxy Bypass DNS Blocklist",
+      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "HaGeZi's Fake DNS Blocklist",
+      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/fake.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
+      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/tif.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
       "name": "FR: French filters RedFlagDomains",
       "source": "https://dl.red.flag.domains/red.flag.domains.txt",
       "type": "adblock",
