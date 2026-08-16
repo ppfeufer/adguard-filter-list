@@ -805,7 +805,7 @@
     },
     {
       "name": "HaGeZi's Multi DNS Blocklist",
-      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/multi.txt",
+      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
@@ -815,7 +815,7 @@
     },
     {
       "name": "HaGeZi's DoH/VPN/TOR/Proxy Bypass DNS Blocklist",
-      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt",
+      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
@@ -825,7 +825,7 @@
     },
     {
       "name": "HaGeZi's Fake DNS Blocklist",
-      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/fake.txt",
+      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
@@ -835,7 +835,7 @@
     },
     {
       "name": "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
-      "source": "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/tif.txt",
+      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
