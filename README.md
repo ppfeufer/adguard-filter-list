@@ -158,6 +158,15 @@ following line to your custom filter rules:
 ```plaintext
 @@||extccp.com^$important
 ```
+### Whatsapp Web<a name="whatsapp-web"></a>
+
+If you use Whatsapp Web by any chance, you also might want to add the
+following line to your custom filter rules:
+
+```plaintext
+@@||whatsapp.com^$important
+@@||whatsapp.net^$important
+```
 
 ## Last Words<a name="last-words"></a>
 
