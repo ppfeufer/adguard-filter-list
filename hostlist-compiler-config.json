@@ -664,16 +664,6 @@
       ]
     },
     {
-      "name": "NextDNS CNAME Cloaking Blocklist",
-      "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "NextDNS Privacy - Alexa",
       "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa",
       "type": "adblock",
