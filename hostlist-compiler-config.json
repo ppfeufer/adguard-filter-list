@@ -846,7 +846,6 @@
   ],
   "transformations": [
     "RemoveComments",
-    "Validate",
     "Deduplicate",
     "TrimLines",
     "InsertFinalNewLine",
