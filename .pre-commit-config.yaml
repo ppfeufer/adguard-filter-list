@@ -69,3 +69,24 @@ repos:
           - mdformat-toc==0.5.0  # Mdformat plugin to generate a table of contents » https://github.com/hukkin/mdformat-toc/tags
           - mdformat-black==0.1.1  # Mdformat plugin to Blacken Python code blocks » https://github.com/hukkin/mdformat-black/tags
           - mdformat-shfmt==0.2.0  # Mdformat plugin to format shell code blocks » https://github.com/hukkin/mdformat-shfmt/tags
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 4f85d46a92dc17713078e5de73f8a13190edf6fc  # frozen: 0.38.2
+    hooks:
+      - id: check-github-actions
+        name: Check GitHub Actions
+        description: This hook checks that GitHub Actions files are valid.
+        args:
+          - --verbose
+
+      - id: check-github-workflows
+        name: Check GitHub Workflows
+        description: This hook checks that GitHub Workflows files are valid.
+        args:
+          - --verbose
+
+      - id: check-dependabot
+        name: Check Dependabot Configuration
+        description: This hook checks that Dependabot configuration files are valid.
+        args:
+          - --verbose

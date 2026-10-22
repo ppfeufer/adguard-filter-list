@@ -7,6 +7,10 @@ cd /var/www/ppfeufer/adguard-filter-list
 # Make sure the local git repo is up to date
 git pull
 
+# Rebuild node modules in case there are updates from Githubs dependabot
+rm -rfv node_modules/
+npm install
+
 # Get OISD list, since the HostlistCompiler can't fetch it for whatever reason » https://github.com/AdguardTeam/HostlistCompiler/issues/58
 curl https://big.oisd.nl/ -o ../oisd.txt
 

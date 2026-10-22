@@ -12,7 +12,7 @@ ______________________________________________________________________
   - [How Often Is This List Updated?](#how-often-is-this-list-updated)
   - [Whitelist Exceptions You Might Want to Make](#whitelist-exceptions-you-might-want-to-make)
     - [Google Fonts](#google-fonts)
-    - [Eve Online](#eve-online)
+    - [EVE Online](#eve-online)
   - [Last Words](#last-words)
 
 <!-- mdformat-toc end -->
@@ -99,7 +99,6 @@ Which lists I'm using here, you can see in hostlist compiler configuration
 | jdlingyu - ad-wars                                                                                          | https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts                                                                               |
 | ethanr - DNS-Blacklists                                                                                     | https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt        |
 | NoTrack Malware Blocklist                                                                                   | https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt                                                                  |
-| abuse.ch URLhaus Host file                                                                                  | https://urlhaus.abuse.ch/downloads/hostfile/                                                                                                  |
 | StevenBlack - Hosts                                                                                         | https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts                                                                              |
 | Adblock Warning Removal List                                                                                | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt                                                                             |
 | ABP filters                                                                                                 | https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt                                                                            |
@@ -149,9 +148,9 @@ the following to your whitelist:
 @@||fonts.gstatic.com^$important
 ```
 
-### Eve Online<a name="eve-online"></a>
+### EVE Online<a name="eve-online"></a>
 
-If you are playing Eve Online by any chance, you also might want to add the
+If you are playing EVE Online by any chance, you also might want to add the
 following line to your custom filter rules:
 
 ```plaintext

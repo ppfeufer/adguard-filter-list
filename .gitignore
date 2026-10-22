@@ -1,3 +1,4 @@
+/node_modules/
 /blocklist.tmp
 /curl-log-file
 /create-adguard-blocklist.sh

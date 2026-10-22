@@ -10,3 +10,20 @@ updates:
     commit-message:
       # Prefix all commit messages with "[github-actions] "
       prefix: "[github-actions] "
+
+  # Maintain dependencies for Node.js
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "master"
+    versioning-strategy: increase
+    groups:
+      "NPM Dependencies":
+        update-types:
+          - "major"
+          - "minor"
+          - "patch"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      # Prefix all commit messages with "[npm] "
+      prefix: "[npm] "

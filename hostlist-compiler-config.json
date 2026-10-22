@@ -584,16 +584,6 @@
       ]
     },
     {
-      "name": "abuse.ch URLhaus Host file",
-      "source": "https://urlhaus.abuse.ch/downloads/hostfile/",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "StevenBlack - Hosts",
       "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "type": "hosts",
