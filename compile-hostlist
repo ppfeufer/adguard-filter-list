@@ -12,7 +12,7 @@ rm -rf node_modules/
 npm install
 
 # Get OISD list, since the HostlistCompiler can't fetch it for whatever reason » https://github.com/AdguardTeam/HostlistCompiler/issues/58
-curl https://big.oisd.nl/ -o ../oisd.txt
+#curl https://big.oisd.nl/ -o ../oisd.txt
 
 # Create compiled blocklist
 time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist

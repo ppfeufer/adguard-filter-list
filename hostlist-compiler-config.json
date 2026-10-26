@@ -245,7 +245,7 @@
     },
     {
       "name": "OISD Big List",
-      "source": "../oisd.txt",
+      "source": "https://big.oisd.nl",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
