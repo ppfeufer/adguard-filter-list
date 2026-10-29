@@ -1,6 +1,6 @@
 {
-  "name": "@ppfeufer/adguard-filter-list",
-  "devDependencies": {
-    "@adguard/hostlist-compiler": "^2.1.1"
-  }
+    "name": "@ppfeufer/adguard-filter-list",
+    "devDependencies": {
+        "@adguard/hostlist-compiler": "^2.1.1"
+    }
 }

@@ -13,5 +13,9 @@ insert_final_newline = true
 [*.{yaml,yml}]
 indent_size = 2
 
-[*.{md,json}]
+[*.md]
 indent_size = 2
+
+# Makefiles always use tabs for indentation
+[{Makefile*,*.mk}]
+indent_style = tab
